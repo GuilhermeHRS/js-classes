@@ -1,20 +1,53 @@
+"
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/forms.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/quiz.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Quiz</title>
 </head>
-<body>
-    <form class="signup-form">
-        <input type="text" id="username" placeholder="username">
-        <input type="submit" value="submit">
-        <div class="feedback"></div>
-    </form>
 
-    <script src="js/Forms/regex.js"></script>
-    <script src="js/Forms/forms.js"></script>
+<body>
+
+
+    <!-- top section-->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+        </div>
+    </div>
+
+    <!-- quiz section-->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+
+            <form action="" class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. How do you give a ninja directions?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="" class="form-check-label">Show them a map</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label for="" class="form-check-label">Don't worry, a ninja will find yoyu</label>
+                    </div>
+                    <div class="my-5">
+                        <p class="lead font-weight-normal">
+                            2. If a ninja has 3 apples, then givez one to Mario & one to Yoshi, how
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/project-quiz/app.js"></script>
 </body>
+
 </html>
