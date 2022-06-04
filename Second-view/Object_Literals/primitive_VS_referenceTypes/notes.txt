@@ -1,0 +1,20 @@
+
+
+
+PRIMITIVE VS REFERENCE TYPES
+
+PRIMITIVE TYPES: 
+ numbers
+ strings 
+ booleans 
+ null
+ undefined
+ symbols
+
+REFERENCE TYPES: 
+ all types of objects
+ object literals
+ arrays
+ functions
+ dates
+ all other objects
