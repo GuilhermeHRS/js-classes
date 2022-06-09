@@ -9,6 +9,7 @@ button.addEventListener('click', () => {
     const li = document.createElement('li');
     li.textContent = input.value;
     
+    
     if(input.value == ''){
         para.innerText = 'Please, select a value';
         para.style.color = 'crimson';
