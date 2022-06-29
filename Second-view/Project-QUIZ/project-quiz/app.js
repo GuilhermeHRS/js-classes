@@ -9,7 +9,7 @@ const result = document.querySelector('.result')
 paras.forEach(para => {
     para.addEventListener('copy', (e) => {
         console.log('This is a copyright')
-        console.log(e);
+        
     })
 })
 
